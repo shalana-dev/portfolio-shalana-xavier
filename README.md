@@ -14,6 +14,22 @@ Site one-page com visual **dark premium**, tipografia marcante e animações sua
 
 ---
 
+## Demonstração
+
+![Demonstração animada do portfólio](assets/portfolio-demo.gif)
+
+| Hero | Projetos |
+|------|----------|
+| ![Seção inicial do portfólio](assets/portfolio-hero.png) | ![Seção de projetos](assets/portfolio-projetos.png) |
+
+| Habilidades | Contato |
+|-------------|---------|
+| ![Seção de habilidades](assets/portfolio-habilidades.png) | ![Seção de contato](assets/portfolio-contato.png) |
+
+![Visão completa do portfólio](assets/portfolio-screenshot.png)
+
+---
+
 ## Funcionalidades
 
 - **Hero** com apresentação, tags de stack e call-to-actions
@@ -97,6 +113,7 @@ npm run dev
 
 ```text
 portfolio-shalana-xavier/
+├── assets/                 # Prints e GIF de demonstração
 ├── public/
 │   ├── eufoto.png          # Foto de perfil
 │   └── logotemporaria.png  # Logo
@@ -159,7 +176,6 @@ A pasta gerada será `dist/`.
 
 - [ ] Adicionar link de demo e repositório em cada card de projeto
 - [ ] Integrar envio real do formulário de contato
-- [ ] Adicionar screenshot/GIF do portfólio no README
 - [ ] Migrar para TypeScript
 - [ ] Implementar tema claro (opcional)
 - [ ] Publicar URL de produção no README

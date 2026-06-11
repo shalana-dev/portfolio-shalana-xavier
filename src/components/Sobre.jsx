@@ -1,27 +1,13 @@
-import { useEffect } from 'react';
-
 function Sobre() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
-
-    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <section id="sobre">
       <div>
         <div className="section-label reveal">sobre mim</div>
-        <h2 className="sobre-title reveal reveal-delay-1">Quem<br />sou eu.</h2>
+        <h2 className="sobre-title reveal reveal-delay-1">
+          Quem
+          <br />
+          sou eu.
+        </h2>
         <p className="sobre-text reveal reveal-delay-2">
           Olá, me chamo <strong>Shalana</strong> e estou em formação como
           desenvolvedora Full Stack.
@@ -47,8 +33,8 @@ function Sobre() {
             <div className="stat-label">Projetos feitos</div>
           </div>
           <div className="stat">
-            <div className="stat-num">02</div>
-            <div className="stat-label">Linguagens</div>
+            <div className="stat-num">05+</div>
+            <div className="stat-label">Tecnologias</div>
           </div>
         </div>
       </div>

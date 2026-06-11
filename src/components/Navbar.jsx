@@ -1,18 +1,26 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react'
 
 function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+      const navbar = document.getElementById('navbar')
+      const scrollProgress = document.getElementById('scrollProgress')
+
+      if (navbar) {
+        navbar.classList.toggle('scrolled', window.scrollY > 50)
+      }
+      if (scrollProgress) {
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight
+        scrollProgress.style.width = (window.scrollY / docHeight) * 100 + '%'
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
-    <nav id="navbar" className={scrolled ? 'scrolled' : ''}>
+    <nav id="navbar">
       <a href="#inicio" className="nav-logo">
         <span className="first-text">Dev</span>
         <span className="second-text">Shalana</span>
@@ -26,7 +34,7 @@ function Navbar() {
       </ul>
       <div className="scroll-progress" id="scrollProgress"></div>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

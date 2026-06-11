@@ -31,22 +31,22 @@ Site one-page com visual **dark premium**, tipografia marcante e animações sua
 
 ## Tecnologias
 
-| Categoria      | Tecnologias                                  |
-| -------------- | -------------------------------------------- |
-| Frontend       | React 19, JavaScript, HTML5, CSS3            |
-| Build          | Vite 8                                       |
+| Categoria | Tecnologias |
+|-----------|-------------|
+| Frontend | React 19, JavaScript, HTML5, CSS3 |
+| Build | Vite 8 |
 | Animações / UX | Lenis, CSS animations, Intersection Observer |
-| Bibliotecas    | Framer Motion, GSAP, React Icons             |
-| Qualidade      | ESLint                                       |
+| Bibliotecas | Framer Motion, GSAP, React Icons |
+| Qualidade | ESLint |
 
 ---
 
 ## Projetos exibidos no portfólio
 
-| Projeto               | Descrição                                                  | Stack                           |
-| --------------------- | ---------------------------------------------------------- | ------------------------------- |
-| **CRUD Estoque Pro**  | Gerenciamento de estoque full stack com APIs REST e SQLite | React, Node.js, Express, SQLite |
-| **Portfólio Pessoal** | Este site — design moderno, responsivo e interativo        | React, JavaScript, CSS3, Vite   |
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| **CRUD Estoque Pro** | Gerenciamento de estoque full stack com APIs REST e SQLite | React, Node.js, Express, SQLite |
+| **Portfólio Pessoal** | Este site — design moderno, responsivo e interativo | React, JavaScript, CSS3, Vite |
 
 ---
 
@@ -84,12 +84,12 @@ npm run dev
 
 ## Scripts disponíveis
 
-| Comando           | O que faz                                  |
-| ----------------- | ------------------------------------------ |
-| `npm run dev`     | Sobe o projeto em modo desenvolvimento     |
-| `npm run build`   | Gera a versão de produção na pasta `dist/` |
-| `npm run preview` | Visualiza localmente o build de produção   |
-| `npm run lint`    | Executa o ESLint no projeto                |
+| Comando | O que faz |
+|---------|-----------|
+| `npm run dev` | Sobe o projeto em modo desenvolvimento |
+| `npm run build` | Gera a versão de produção na pasta `dist/` |
+| `npm run preview` | Visualiza localmente o build de produção |
+| `npm run lint` | Executa o ESLint no projeto |
 
 ---
 
@@ -151,7 +151,7 @@ A pasta gerada será `dist/`.
 
 - **E-mail:** shalana.dev@email.com
 - **GitHub:** [github.com/shalana-dev](https://github.com/shalana-dev)
-- **LinkedIn:** [linkedin.com/in/shalanaxyz](https://www.linkedin.com/in/shalana-dev)
+- **LinkedIn:** [linkedin.com/in/shalanaxyz](https://www.linkedin.com/in/shalanaxyz)
 
 ---
 
@@ -177,6 +177,6 @@ A pasta gerada será `dist/`.
 
 ---
 
-## Autorias
+## Licença
 
 Projeto pessoal — © Shalana Xavier. Todos os direitos reservados.

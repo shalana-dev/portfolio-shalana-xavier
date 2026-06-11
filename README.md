@@ -151,7 +151,7 @@ A pasta gerada será `dist/`.
 
 - **E-mail:** shalana.dev@email.com
 - **GitHub:** [github.com/shalana-dev](https://github.com/shalana-dev)
-- **LinkedIn:** [linkedin.com/in/shalanaxyz](https://www.linkedin.com/in/shalanaxyz)
+- **LinkedIn:** [linkedin.com/in/shalanaxyz](https://www.linkedin.com/in/shalana-dev)
 
 ---
 

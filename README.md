@@ -6,7 +6,7 @@ Portfólio pessoal desenvolvido com **React** e **Vite** para apresentar minha t
 
 ## Sobre
 
-Site one-page com visual **dark premium**, tipografia marcante e animações suaves. O objetivo é apresentar de forma profissional quem sou, o que sei fazer e quais projetos já construí — ideal para portfólio, LinkedIn e processos seletivos.
+Site one-page com visual **dark premium**, tipografia marcante e animações suaves. O objetivo é apresentar de forma profissional quem sou, o que sei fazer e quais projetos já construí.
 
 **Autora:** Shalana Xavier  
 **Localização:** Aracaju, SE — Brasil  
@@ -169,16 +169,6 @@ A pasta gerada será `dist/`.
 - **E-mail:** shalana.dev@email.com
 - **GitHub:** [github.com/shalana-dev](https://github.com/shalana-dev)
 - **LinkedIn:** [linkedin.com/in/shalanaxyz](https://www.linkedin.com/in/shalana-dev)
-
----
-
-## Melhorias futuras
-
-- [ ] Adicionar link de demo e repositório em cada card de projeto
-- [ ] Integrar envio real do formulário de contato
-- [ ] Migrar para TypeScript
-- [ ] Implementar tema claro (opcional)
-- [ ] Publicar URL de produção no README
 
 ---
 
